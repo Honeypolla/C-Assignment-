@@ -1,0 +1,33 @@
+using System;
+
+namespace Assignment 
+{
+	class Solution 
+	{
+		static void Main(string[] args)
+		{
+		int i=4;
+		double d=4.0;
+		string s= "Polyilaro";
+		//Declare second integer,double,and string variables
+		int k;
+		double q;
+		string p;
+		
+	   //Read and save an integer,double,and string to your variables
+	   k=12;
+	   q=15.9;
+	   p="is a renowned polytechnic in Africa";
+	   // Print the sum of both integer variables on a new line
+	Console.WriteLine(i+k);
+	//Print the sum of double variable on a new line
+	 Console.WriteLine(d+q);
+	 //Concatenate and print the String variables on the new line
+	// The 's'variable should be printed first 
+	Console.WriteLine(s+p);
+			
+		
+		   
+		}
+	}
+}
